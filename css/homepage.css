@@ -1,0 +1,296 @@
+#about-us {
+  padding: 30px;
+}
+
+/* ================header section================= */
+#header {
+  background: url(../images/background_header-contact.jpg) no-repeat top center;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #878b72;
+}
+#header h4 {
+  font-family: Sans-Serif;
+  font-size: 60px;
+  font-weight: 200;
+  color: #666;  
+}
+#header .fa{
+  font-size: 25px;
+  color: #666;
+}
+
+#header .line {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+#header .line-left,
+#header .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 2px solid #666;
+  display: inline-block;
+}
+#header .line-left {
+  right:58%;
+}
+#header .line-right {
+  left:58%;
+}
+
+/* ================about-us section - left side====================== */
+#about-us .left-side {
+  text-align: center;
+}
+#about-us .left-side h2 {
+  color: orange;
+}
+#about-us .left-side p {
+  font-size: 18px;
+}
+#about-us .line {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+}
+#about-us .line-left,
+#about-us .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 1px solid lightgreen;
+  display: inline-block;
+}
+#about-us .fa{
+  font-size: 15px;
+  color: lightgreen;
+}
+#about-us .line-left {
+  right:58%;
+}
+#about-us .line-right {
+  left:58%;
+}
+#open-hours {
+  text-align: left;
+  display: inline-block;
+}
+#open-hours ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+#open-hours input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: orange;
+  font-weight: 800;
+  border: 5px solid lightgreen;
+  background-color: white;
+}
+
+/* =====================about-us section - rightside====================== */
+#about-us .right-side {
+  background: url(../images/bakery_1.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+}
+
+/* ========================recipes section================================== */
+#recipes {
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(../images/bakery_2.jpg) no-repeat center top;
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  }
+  #recipes h2
+  {
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
+    color: orange;
+    text-shadow: 2px 2px 4px white, 2px 2px 4px white;
+  }
+   #recipes h3
+   {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+
+    color: black;
+    text-shadow: 2px 2px 4px orange, 2px 2px 4px orange;
+   }
+/* ========================our-products section================================== */
+#our-products {
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  background: #EDEDED no-repeat center top;
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2%;
+  
+  }
+  .pro-img {
+  overflow: hidden;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 180px;
+  background: no-repeat center top;
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 5px solid #EDEDED;
+  }
+  #one {
+  background: url(../images/bakery_4.jpg) no-repeat center top;
+  }
+  #two {
+  background: url(../images/bakery_3.jpg) no-repeat center top;
+  }
+   #three {
+  background: url(../images/bakery_3.jpg) no-repeat center top;
+  }
+  #four {
+  background: url(../images/bakery_4.jpg) no-repeat center top;
+  }
+#our-products .right-side {
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+#our-products .right-side h2 {
+  color: orange;
+}
+#our-products .right-side p {
+  font-size: 18px;
+  color: black;
+}
+#our-products .line {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+}
+#our-products .line-left,
+#our-products .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 1px solid lightgreen;
+  display: inline-block;
+}
+#our-products .fa{
+  font-size: 15px;
+  color: lightgreen;
+}
+#our-products .line-left {
+  right:58%;
+}
+#our-products .line-right {
+  left:58%;
+}
+#our-products input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: orange;
+  font-weight: 800;
+  border: 5px solid lightgreen;
+  background-color: white;
+  padding: 0;
+  width: 50%;
+}
+/* ========================contact-us section================================== */
+#Oth-map {
+  background: url(../images/square-map.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#contact-info h3 {
+  color: orange;
+  padding: 2% 2% 2% 6%;
+}
+#contact-info {
+  text-align: center;
+  padding-left: 5%;
+  margin-top: 5%;
+
+}
+#contact-info ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+#contact-info input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: orange;
+  font-weight: 800;
+  border: 5px solid lightgreen;
+  background-color: white;
+  width: 50%;
+}
+.info {
+  text-align: left;
+}
+#contact-info p {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6%;
+}
+.info a {
+
+  margin-left: 5%;
+}
+.btn {
+  background-color: lightgreen;
+  border-color: lightgreen;
+}

@@ -1,0 +1,137 @@
+#main, #Oth-map {
+  padding: 30px;
+}
+
+/* ==========================================================================
+header section
+========================================================================== */
+#header {
+  background: url(../images/background_header-contact.jpg) no-repeat top center;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #878b72;
+}
+#header h4 {
+  font-family: Sans-Serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: #666;  
+}
+#header .fa{
+  font-size: 25px;
+  color: #666;
+}
+
+#header .line {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+#header .line-left,
+#header .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 2px solid #666;
+  display: inline-block;
+}
+#header .line-left {
+  right:58%;
+}
+#header .line-right {
+  left:58%;
+}
+
+/* ==========================================================================
+main section - left side
+========================================================================== */
+#main .left-side ul {
+  list-style: none;
+  margin-left: -30px;
+  letter-spacing: 2px;
+}
+#main .left-side h2 {
+  text-transform: uppercase;
+  color: #e7b99f;
+  font-weight: bolder;
+}
+#main .left-side ul.Oth-address li{
+  font-size: 18px;
+}
+#main .left-side ul.Oth-address li:first-child {
+  margin-top: 20px;
+}
+
+/* ==========================================================================
+main section - Contact
+========================================================================== */
+#main .right-side h2 {
+  text-transform: uppercase;
+  color: #878b72;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#main .right-side strong {
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 1px;
+}
+#main .right-side .form-control,
+#main .right-side .send-button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: none;
+}
+#main .right-side .form-control{
+  font-style: italic;
+}
+#main .right-side input {
+  height: 30px;
+}
+#main .right-side input[type="submit"] {
+  background: #d6d7c5;
+  border: 3px solid #d6d7c5;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 18px;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+#main .right-side input[type="submit"]:hover {
+  color: #6600cc;
+}
+
+/* ==========================================================================
+Map section
+========================================================================== */
+#Oth-map {
+  background: url(../images/Othello-map-brando.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+}
