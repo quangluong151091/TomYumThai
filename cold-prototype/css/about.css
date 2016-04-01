@@ -1,0 +1,214 @@
+#main, #main2 {
+  padding: 30px;
+}
+
+/* ==========================================================================
+header section
+========================================================================== */
+#header {
+  background: linear-gradient(rgba(255,222,222,0.3),rgba(255,222,222,0.3)), url(../images/14.jpg) no-repeat center top;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #FFFFFF;
+}
+#header .fa{
+  font-size: 25px;
+  color: #FFF;
+}
+
+#header .line {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+#header .line-left,
+#header .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 2px solid #FFF;
+  display: inline-block;
+}
+#header .line-left {
+  right:58%;
+}
+#header .line-right {
+  left:58%;
+}
+
+/* ==========================================================================
+main section1 - left side
+========================================================================== */
+#main .left-side{
+  padding: 86px 75px 0px 0px;
+}
+#main .left-side .about-text {
+  list-style: none;
+  text-align: justify;
+  font-size: 26px;
+  line-height: 1.4;
+}
+#main .fa1 {
+  font-size: 25px;
+  color: #404040;
+  text-align: center;
+}
+#main .left-side h2 {
+  text-transform: uppercase;
+  color: #FF6A00;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* ==========================================================================
+main section1 - right side
+========================================================================== */
+#main .right-side  {
+  padding: 144px 0;
+}
+#main .right-side img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+/* ==========================================================================
+Main section 2
+========================================================================== */
+#main2 {
+  background: url(../images/13.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  text-align: center;
+  margin-top: 20px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+#main2 h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #FFFFFF;
+}
+#main2 h4 {
+  font-family: Sans-Serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: #FFFFFF;  
+}
+
+/* ==========================================================================
+Main section 3 
+========================================================================== */
+#main3 .row {
+    padding: 61px 0;
+}
+
+
+/* ==========================================================================
+Main section 3 - left side
+========================================================================== */
+#main3 .left-side1  {
+  padding: 1px 1px;
+}
+#main3 .left-side1 .img1 , #main3 .left-side1 .img2 {
+  vertical-align: middle;
+  width: 39%;
+  height: 280px;
+}
+#main3 .left-side1 .img1 {
+  margin-right: 65px;
+}
+
+/* ==========================================================================
+Main section 3 - right side
+========================================================================== */
+
+#main3 .right-side1{
+  padding: 29px 83px 0px 0px;
+}
+#main3 .right-side1 .about-text {
+  list-style: none;
+  text-align: justify;
+  font-size: 28px;
+  line-height: 1.4;
+}
+#main3 input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: #D5A77F;
+  font-weight: 800;
+  border: 5px solid #D5A77F;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 0px;
+  width: 50%;
+}
+
+/* ==========================================================================
+Main section 4
+========================================================================== */
+#main4 {
+  background: url(../images/background_header-contact.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  text-align: center;
+  margin-top: 20px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+#main4 h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #878b72;
+}
+#main4 h4 {
+  font-family: Sans-Serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: #666;  
+}
+
+/* ==========================================================================
+Main section 5
+========================================================================== */
+#main5 .row .text{
+  padding: 53px 0;
+}
+#main5 .row .about-text {
+  list-style: none;
+  text-align: justify;
+  font-size: 26px;
+  line-height: 1.4;
+}

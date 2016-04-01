@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+<head>
+	<meta charset="UTF-8" />
+	<title>TomYumThai Restaurant - Menus</title>
+	<meta name="description" content="HTML5 Template" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="TomYumThai Restaurant" />
+	<meta name="author" content=" " />
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="css/products.css" />
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" type='text/javascript'></script>
+ 	
+</head>
+	
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- navigation section -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="header-logo"><a href="homepage.html"><img src="images/tytlogo.png"></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="homepage.html" class="smoothScroll">WELCOME</a></li>
+				<li><a href="about.html" class="smoothScroll">ABOUT</a></li>
+				<li><a href="menus.html" class="smoothScroll">MENUS</a></li>
+				<li><a href="contact.html" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!-- main section -->
+<div id="products" class="container-fluid" style="margin:-1.5%">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/products/carousel/products_carousel_1.jpg" alt="Category_1" width="460" height="345">
+        <div style="color:#ff4000"class="carousel-caption">
+          <h3>Red curry with chicken</h3>
+          <p>Red curry chicken with coconut milk, bamboo shoots and herbs</p>
+        </div>
+      </div>
+
+
+      <div class="item">
+        <img src="images/products/carousel/products_carousel_2.jpg" alt="Dongnai" width="460" height="345">
+        <div style="color:#ff4000" class="carousel-caption">
+          <h3>Category 2</h3>
+          <p>This is the second category</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/products/carousel/products_carousel_3.jpg" alt="MyFamily" width="460" height="345">
+        <div style="color:#ff4000" class="carousel-caption">
+          <h3>Oyster sauce with beef</h3>
+          <p>Fried beef with oyster sauce, onion, paprika and chili</p>
+        </div>
+      </div>
+       <div class="item">
+        <img src="images/products/carousel/products_carousel_4.jpg" alt="MyFamily" width="460" height="345">
+        <div style="color:#ff4000" class="carousel-caption">
+          <h3>Category 4</h3>
+          <p>This is the fourth category</p>
+        </div>
+      </div>
+       <div class="item">
+        <img src="images/products/carousel/products_carousel_5.jpg" alt="MyFamily" width="460" height="345">
+        <div style="color:#ff4000" class="carousel-caption">
+          <h3>Spring rolls</h3>
+          <p>Spring rolls with minced meat and vegetables, served with sweet chili sauce.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- Item list !-->
+
+<div id="itemlist" class="container-fluid">
+	<ul class="nav nav-tabs">
+  	   		<li class="active category"><a data-toggle="tab" href="#category1">Starters</a></li>
+		    <li class="category"><a data-toggle="tab" href="#category2">Chicken</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category3">Beef</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category4">Pork</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category5">Seafood</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category6">Vegetables</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category7">New dishes</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category8">Children's meal</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category9">Desserts</a></li>
+    		<li class="category"><a data-toggle="tab" href="#category10">Drink</a></li>
+    		
+  </ul>
+ 	</div>
+ </div></div>
+  
+  <div id="tab-content" class="tab-content">
+    <div id="category1" class="tab-pane fade in active row" role="tab">
+		<p style="text-align:center" class="menus-name">Alkuruoat/Förrätt/Starters</p>
+		<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+		
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">1 - Kanavartaat/Satay Chicken</p>
+		<p class="col-xs-3 menus-category-name">6 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Marinoitua grillattua kanaa pähkinä- ja makealla chilikastikkeella</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Marinerat grillat kyckling spett med nötter och söt chilisås</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Grilled marinated chicken skewers with peanuts and sweet chili sauce</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">2 - Friteerattu kala/ Fried Fish</p>
+		<p class="col-xs-3 menus-category-name">6 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Rapeaa friteerattua kalaa makealla chilikastikkeella</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Friterad fisk med söt chilisås</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Crispy fried fish with chili sauce</p>                                    
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">3 - Kevätkääryleet thaimaalaisittain</p>   					
+		<p class="col-xs-3 menus-category-name">5 €</p>
+		<p class="col-xs-2"></p> 
+		<p class="col-xs-10">Jauheliha- ja kasvistäytteiset taikinakääryleet makealla chilikastikkeella</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Maletkött- och grönsaksfyllda vårrullar med söt chili sås</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Spring rolls with minced meat and vegetables, served with sweet chili sauce.</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">4 - Friteeratut katkaravut</p>
+		<p class="col-xs-3 menus-category-name">6 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Friteerattua katkarapua</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Friterade räkor</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Crispy fried prawns</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">5 - Tom Yum Kung</p>
+		<p class="col-xs-3 menus-category-name">7 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Thaimaalaisen keittiön kuuluisuus. Perinteinen tulinen keitto jossa katkarapuja, kookosmaitoa ja yrttejä</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Thailändska kökets mest välkända soppa. Traditionell kryddig soppa med jätteräkor, kokosmjölk och örter</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">The most famous soup in Thai cuisine. Traditional spicy soup with king prawns, coconut milk and herbs</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">6 - Tom Som Pla</p>    									    
+		<p class="col-xs-3 menus-category-name">7 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Tulinen kalakeitto inkiväärillä ja tomaateilla, sipuli, chili ja yrteillä</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Stark fisksoppa med ingefära och tomat, lök, chili och örter</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Fish soup with fresh ginger, tomatoes, onion chili and herbs</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">7 - Tom Kha Kai</p>   								    
+		<p class="col-xs-3 menus-category-name">6 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Kanakeitto kookosmaidolla, inkiväärillä, sipuli, tomaateilla ja yrteillä </p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Kyckling soppa med kokosmjölk, ingefära, lök, tomat och örter</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Chicken soup with coconut milk, fresh ginger, onion, tomatoes and herbs</p>
+
+		<p class="col-xs-2"></p>
+		<p class="col-xs-7 menus-category-name">8 - Som Tam “Porkkana”</p>  								    
+		<p class="col-xs-3 menus-category-name">6 €</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Tulinen salaatti jossa porkkanaa, katkarapuja, tomaattia, pähkinöitä, chiliä, limetin mehua ja kalakastiketta</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Stark sallad med morot, räkor, tomat, jordnötter, vitlök, limesaft och fisksås</p>
+		<p class="col-xs-2"></p>
+		<p class="col-xs-10">Spicy carrot salad, carrots, shrimps, tomatoes, nuts, lime juice, and fish sauce</p> 
+
+	</div>
+    <div id="category2" class="row tab-pane fade row" role="tab">
+    	<p style="text-align:center" class="menus-name">Kana/Kyckling/Chicken 13€ (Take away only 10euro)</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">9 - Vihreä kanacurry</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Vihreä curry jossa kanaa, kookosmaitoa, bambua ja yrttejä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kyckling med grön curry, kokosmjölk, bambuskott och örter</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Green Chicken Curry with coconut milk, bamboo shoots and herbs</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">10 - Basilikakanaa</p>    					
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Paistettua kanaa, basilikaa, sipulia, bambua ja chiliä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Stekt kyckling med basilika, lök, bambuskott och chili</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Pan fried chicken with basil, onion, bamboo shoots and chili</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">11 - Kanaa cashewpähkinöillä</p>   
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Paistettua kanaa cashewpähkinöillä ja chiliä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Stekt kyckling med cashew-nötter och chili</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Pan fried chicken with cashew nuts and chili</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">12 - Punainen kanacurry   </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Punainen curry kanalla, kookosmaidolla, bambulla ja yrttejä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kyckling med röd curry, kokosmjölk, bambuskott och örter</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Red curry chicken with coconut milk, bamboo shoots and herbs</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">13 - Tom Kha Kai   </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kanakeitto kookosmaidolla, tomaateilla ja yrteillä </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kyckling soppa med kokosmjölk, tomat och örter</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Chicken soup with coconut milk, tomatoes and herbs</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">14 - Tulinen kanasalaatti   </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kanaa tuoreen sipulin, limetin mehun, kalakastikkeen ja yrteillä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Stark kycklingssallad med färsk lök, limesaft, fisksås och örter </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Spicy chicken salad with fresh onion, lime juice, fish sauce and herbs</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">15 - Paistettua kanaa inkiväärillä   </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Mausteista paistettua kanaa inkiväärillä, sipulilla ja sienillä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kryddigt stekt kyckling med ingefära, lök och svampar</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Spicy pan fried chicken with ginger, onion and mushroom</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">16 - Paistettua kanaa ja vihanneksia   </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Paistettua kanaa, porkkanaa, bambua ja kukkakaalia</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Stekt kyckling med grönsaker (morot , bambuskott och broccoli)</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Pan fried chicken with vegetables (carrot, bamboo shoots and broccoli)</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">17 - Paistettua hapanimelää kanaa  </p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Makeaa paistettua kanaa sipulilla, kurkulla, paprikalla ja ananaksella</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kyckling i sötsursås med lök , gurka, paprika och ananas</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Sweet, sour chicken with onion, cucumber, paprika and pineapple</p>
+
+<p class="col-xs-2"></p>
+<p class="col-xs-10 menus-category-name">18 - Panang Kai  </p>  								
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Kanacurry kookosmaidolla ja yrteillä</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Panang kyckling med kokosmjölk och örter</p>
+<p class="col-xs-2"></p>
+<p class="col-xs-10">Chicken curry with coconut milk and herbs</p>
+    </div>
+    <div id="category3" class="row tab-pane fade" role="tab">
+	<p style="text-align:center" class="menus-name">Nauta/NötKött/Beef	14€ (Take away only 11euro)</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">	19 -  Naudanlihaa basilikalla   </p> 
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista paistettua naudanlihaa basilikalla</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddig stekt kött med basilika</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Spicy pan fried beef with basil </p>
+										
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">20 -  Vihreä naudanlihacurry    </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Vihreä curry naudanlihalla, kookosmaidolla, bambulla ja yrteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Nötkött med grön curry och kokosmjölk, bambuskott och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Green Curry Beef with coconut milk, bamboo shoots and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">21 -  Mussaman curry    </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Punainen curry naudanlihalla ja kookosmaidolla, bambulla ja yrteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Nötkött med röd curry och kokosmjölk, bambuskott och örter </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Red curry beef with coconut milk, bamboo shoots and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">22  - Mausteinen paistettu naudanliha  </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettu naudanliha osterikastikkeella, sipulilla, paprikalla ja chiliä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt nötkött med oyster-sås, lök, paprika och chili</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fried beef with oyster sauce, onion, paprika and chili</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">23  -  Paistettu naudanliha inkiväärillä   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista paistettua naudanlihaa inkiväärillä, sipulilla ja sienillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt stekt nötkött med ingefära, lök, svamp</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried beef with ginger, onion and mushroom</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">24  -  Tulinen naudanlihasalaatti   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista naudanlihaa sipulilla, limetillä, kurkulla, tomaatilla ja yrtteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt nötkött med lök, limesaft, gurka, tomat och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Spicy beef with onion, lime juice, cucumber, tomatoes and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">25 - Panang Nea   </p> 
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Naudancurry kookosmaidolla ja yrteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Panang kött med kokosmjölk och örter	</p>			
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Beef curry with coconut milk and herbs</p>
+
+	</div>
+    <div id="category4" class="row tab-pane fade" role="tab">
+    <p style="text-align:center" class="menus-name">Sianliha/Griskött/Pork	13€ (Take away only 10euro)</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">26 -   Vihreä sianlihacurry   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Vihreä curry sianlihalla, kookosmaidolla  bambulla ja yrtteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Griskött med grön curry, kokosmjölk, bambuskott och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Green curry with pork, coconut milk, bamboo shoots and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">27 -   Sianlihaa basilikalla   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista paistettua sianlihaa basilikalla ja chiliä</p>	
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt stekt griskött med basilika och chili</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Spicy pan fried pork with basil and chili</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">28 -  Mausteinen paistettu sianliha    </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista paistettua sianlihaa osterikastikkeella, sipulilla, paprikalla</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt stekt griskött med oyster-sås, lök och paprika</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried pork with oyster sauce, onion, paprika</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">29 -  Paistettua sianlihaa inkiväärillä   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteista paistettua sianlihaa inkiväärillä, sipulilla, sienillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt stekt griskött med ingefära, lök, svamp</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried pork with ginger, onion, mushroom</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">30 -  Paistettua hapanimelää sianlihaa   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua sianlihaa makea chilikastikkeella. sipulilla, kurkulla, paprikalla ja ananaksella</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt griskött i sötsursås med lök, gurka, paprika och ananas	</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried pork in sweet and sour sauce with onion, cucumber, paprika and pineapple</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">31 - Paistettua sianlihaa ja vihanneksia  </p> 
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua sianlihaa ja vihanneksia, porkkanaa, bambua, parsakaali ja kukkakaali</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt griskött med grönsaker morot, bambuskott, kinakål, broccoli</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fried pork with vegetables, carrot, bamboo shoots, broccoli and cauliflower</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">32 - Panang Muh   </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Sianliha curry kookosmaidolla ja yrteillä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Panang griskött med kokosmjölk och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pork curry with coconut milk and herbs</p>
+
+        
+    </div>
+     <div id="category5" class="row tab-pane fade" role="tab">
+   <p style="text-align:center" class="menus-name">Merenelävät/Skaldjur/Seafood 15€ (Take away only 12euro)</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">33 - Mereneläviä basilikalla</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteisia jättikatkarapuja, mustekalaa ja basilika</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt stekta jätteräkor, bläckfisk och basilika</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Spicy pan fried king prawns, squids and basil </p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">34 - Tom Yum Kung  </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Thaimaalaisen keittiön kuuluisuus, perinteinen tulinen keitto jossa jättikatkarapuja, kookosmaitoa ja yrttejä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Thailändska kökets mest välkända soppa. Traditionell kryddig soppa med jätteräkor, kokosmjölk och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">The most famous soup in Thai cuisine. Traditional spicy soup with king prawns, coconut milk and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">35  -  Tom Kha Seafood </p> 	
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Jättikatkarapuja ja mustekalaa keitossa jossa kookosmaitoa, tomaattia ja yrttejä</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Soppa med jätteräkor, bläckfisk, kokosmjölk, tomat och örter</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Soup with king prawns, squids, coconut milk, tomato and herbs</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">36 -   Tom Som Pla </p>   	
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteinen kalakeitto inkiväärillä ja tomaatilla</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fisksoppa med ingefära och tomat</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fish soup with ginger and tomato</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">37  -  Pla Sam Rot     </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua kalaa makean, tulisen happaman kastikkeen kera</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt fisk med kryddig sötsur sås </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried fish with special spicy sweet sour sauce</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">38 -  Pad Thai Kung 	</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettuja riisinuudeleita jättikatkarapujen, maapähkinöiden, sipulin kera</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekta risnudlar med jätteräkor, jordnötter och lök </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried Thai rice noodles with king prawns, peanuts and onion</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">39  - Spicy seafood salad  </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Jättikatkarapuja , mustekalaa , sipulia , lime , valkosipulia ja riisinuudeleita</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Jätteräkor , bläckfisk , lök , chili , limesaft , vitlök och ris nudlar</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">King prawns . squid , onion , chili , garlic and rice noodles</p>
+       
+    </div> 
+    <div id="category6" class="row tab-pane fade" role="tab">
+    <p style="text-align:center" class="menus-name">Kasvisruoat/Vegatarisk/Vegetables 11€ (Take away 9euro)</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">40 - Paistetut vihannekset / Pan fried vegetables </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettuja kasviksia osterikastikkeessa</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt grönsaker i oyster-sås</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried mixed vegetables in oyster sauce</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">41 - Pad Thai   </p> 
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettuja riisinuudeleita sipulin ja kananmunan kera </p>   
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekta risnudlar med lök och ägg</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Pan fried rice noodles with onion and egg</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">42 -	Kevätkääryleet/Thai spring rolls  </p>                                            
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kasvistäytteiset kevätkääryleet, chilikastiketta</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Vegetariska vårrullar med chilisås</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Springrolls filled with vegetables served with chili sauce</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">43 -	Vihreä curry / Green curry</p>                                                            
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kasviksia vihreässä curryssa</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Grönsaker i grön curry</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mix vegetables in green curry</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">44 - Punainen curry / Red curry </p>                                                         
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kasviksia punaisessa curryssa</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Grönsaker i röd curry</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mixed vegetables in red curry</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">45 - Vegetables Tom Yum     </p>                                                                  
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Tulinen keitto jossa kasviksia kookosmaidossa</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddigt grönsakssoppa med kokosmjölk</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Spicy soup with mixed vegetables and coconut milk</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">46 - Tom kha             </p>                                                                                     
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Keitto jossa kasviksia ja kookosmaitoa</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Grönsakssoppa med kokosmjölk</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Soup with mixed vegetables and a coconut milk</p>
+       
+    </div>
+     <div id="category7" class="row tab-pane fade" role="tab">
+   	<p style="text-align:center" class="menus-name">New dishes</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">47 - Crisp duck		</p>
+	<p class="col-xs-3 menus-category-name">20€ </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Crisp duck with pancake, cucumber and hoisin sauce</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Krispig anka med pannkakor, gurka och hoisinsås </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Rapea ankka lettujen, kurkun ja hoisin kastikeen kanssa</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">48 - Spicy fish soup			</p>						
+	<p class="col-xs-3 menus-category-name">18€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fish with Chinese cabbage</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kryddig fisksoppa med kinakål</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Mausteinen kalakeitto kiinankaalilla</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">49 - Tofu with pork 			</p>						
+	<p class="col-xs-3 menus-category-name">16€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Tofu with minced pork</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Tofu med malet griskött</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Tofu ja jauhettu sianlihaa</p>
+
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">50 - Chicken with peanuts	</p> 							
+	<p class="col-xs-3 menus-category-name">15€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Chicken with peanuts, vegetables and chili peppers</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Kyckling med jordnötter, grönsaker och chili</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua kanaa pähkinöillä ja chiliä</p>
+
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">51 - Mixed salad with shrimps 	</p>						
+	<p class="col-xs-3 menus-category-name">12€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Blandsallad med räkor</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Salaattisekoitus katkaravuilla</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">52 - Fried chicken with noodles 	</p>					
+	<p class="col-xs-3 menus-category-name">13€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt kyckling med nudlar</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua kanaa ja nuudeleita</p>
+
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">53 - Fried pork with noodles </p>							
+	<p class="col-xs-3 menus-category-name">13€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt gris med nudlar</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua sianlihaa ja nuudeleita</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">54 - Fried beef with noodles 	</p>						
+	<p class="col-xs-3 menus-category-name">14€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt nötkött med nudlar</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua naudanlihaa ja nuudeleita</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">55 - Fried rice with shrimps 	</p>						
+	<p class="col-xs-3 menus-category-name">15€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekt ris med räkor</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Paistettua riisiä ja katkarapuja</p>
+
+        
+    </div>
+     <div id="category8" class="row tab-pane fade" role="tab">
+   <p style="text-align:center" class="menus-name">Lasten annos / Barn mat / Children's meal     7€</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+       
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">56: </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Friteerattu kana riisillä (ketchup/makea chilikastikke)   </p> 				
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Friterade kyckling med ris (ketchup/söt chili sås)</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fried chicken with rice (ketchup/sweet chili sauce)</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10 menus-category-name">57: </p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Lihapullat ja ranskalaiset</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Köttbullar med franska</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Meat balls and french fries</p>
+
+        
+    </div>
+     <div id="category9" class="row tab-pane fade" role="tab">
+    <p style="text-align:center" class="menus-name">NJälkiruokia/Efterrätt/Desserts</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Paistettua banaania jäätelöllä	</p>							
+	<p class="col-xs-3 menus-category-name">6€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Stekta bananer med glass</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fried bananas with ice cream</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Mixed fruits			</p>								
+	<p class="col-xs-3 menus-category-name">6€</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Fruktsallad</p>
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Hedelmäsalaatti	</p>
+       
+    </div>
+    <div id="category10" class="row tab-pane fade" role="tab">
+   <p style="text-align:center" class="menus-name">Juomat/Dryck/Drink</p>
+    	<div class="line">
+					<div class="line-left"></div>
+					<i class="fa fa-asterisk"></i>
+					<div class="line-right"></div>
+				</div>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Limsa / Läsk / SoftDrink  	</p>		
+	<p class="col-xs-3 menus-category-name">3€/0,33L  </p>                                               
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Maito / Mjölk / Milk </p>  							 	
+	<p class="col-xs-3 menus-category-name">2€/0,33L  </p>                                           
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Mehu / Saft / Juice   </p> 								
+	<p class="col-xs-3 menus-category-name">3€  </p>                                                        
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Kahvi / Kaffe / Coffee </p>  								
+	<p class="col-xs-3 menus-category-name">2€   </p>                                                   
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Tee / Tea     	</p>									
+	<p class="col-xs-3 menus-category-name">2€  </p>                                                                           
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Karhu/Singha  III-Olut / Öl / Beer/0,33L  	</p>			
+	<p class="col-xs-3 menus-category-name">4,9€ </p>                                                    
+
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">Red Wines: 	</p>					
+	<p class="col-xs-3 menus-category-name">6€/12cl, 35€/bottle</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Italy: Montalto Nero d'Avola Passivento</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">New Zealand: Waipara Hills Central Otago Pinot Noir</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Australia: Block 50 Mourvèdre Grenache</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Chile: Llai Llai Grenache</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">France: Rosière Syrah</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-7 menus-category-name">White Wines: 		</p>					   
+	<p class="col-xs-3 menus-category-name">6€/12cl, 35€/bottle</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">France: Domaine Zinck Riesling Prestige</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Italy: Anselmi San Vincenzo</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">Germany: Baron Heyl Estate Riesling</p>
+
+	<p class="col-xs-2"></p>
+	<p class="col-xs-10">New Zealand: Sileni Cellar Selection Pinot Gris</p>
+
+      
+    </div>
+  </div>
+</div>
+
+
+		
+	<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<ul class="copyright">
+					<li>Copyright &copy; 2015</li>  
+					<li>Design by BDDNQ team</li> 
+				</ul>
+				<i>Working best on Google Chrome</i>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="js/jquery-lib.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+	</body>
+</html>

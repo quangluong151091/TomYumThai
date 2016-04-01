@@ -1,0 +1,233 @@
+#about-us {
+  padding: 30px;
+}
+
+/* ================header section================= */
+#header {
+  background: linear-gradient(rgba(255,222,222,0.3),rgba(255,222,222,0.3)), url(../images/10.jpg) no-repeat center top;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* ================about-us section - right side====================== */
+#about-us .left-side {
+  text-align: center;
+}
+#about-us .left-side h2 {
+  color: black;
+}
+#about-us .left-side p {
+  font-size: 18px;
+}
+#about-us .line {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+}
+#about-us .line-left,
+#about-us .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  display: inline-block;
+}
+#about-us .fa{
+  font-size: 15px;
+  color: black;
+}
+#about-us .line-left {
+  right:58%;
+}
+#about-us .line-right {
+  left:58%;
+}
+#open-hours {
+  text-align: left;
+  display: inline-block;
+}
+#open-hours ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+#open-hours input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: #D5A77F;
+  font-weight: 800;
+  border: 5px solid #D5A77F;
+  background-color: white;
+}
+#student {
+  text-align:center;
+  font-style: italic;
+}
+/* =====================about-us section - leftside====================== */
+#about-us .right-side {
+  background: url(../images/01.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+}
+
+/* ========================our-menus section================================== */
+#our-products {
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  background: #EDEDED no-repeat center top;
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2%;
+  
+  }
+  .pro-img {
+  overflow: hidden;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 180px;
+  background: no-repeat center top;
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 5px solid #EDEDED;
+  }
+  #one {
+  background: url(../images/seafood1.jpg) no-repeat center top;
+  }
+  #two {
+  background: url(../images/seafood2.jpg) no-repeat center top;
+  }
+   #three {
+  background: url(../images/beef2.jpg) no-repeat center top;
+  }
+  #four {
+  background: url(../images/chicken3.jpg) no-repeat center top;
+  }
+#our-products .right-side {
+  text-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+#our-products .right-side h2 {
+  color: black;
+}
+#our-products .right-side p {
+  font-size: 18px;
+  color: black;
+}
+#our-products .line {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+}
+#our-products .line-left,
+#our-products .line-right {
+  width: 42%;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  display: inline-block;
+}
+#our-products .fa{
+  font-size: 15px;
+  color: black;
+}
+#our-products .line-left {
+  right:58%;
+}
+#our-products .line-right {
+  left:58%;
+}
+#our-products input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: #D5A77F;
+  font-weight: 800;
+  border: 5px solid #D5A77F;
+  background-color: white;
+  padding: 0;
+  width: 50%;
+}
+/* ========================contact-us section================================== */
+#Oth-map {
+  background: url(../images/TYT-map.jpg) no-repeat top center;
+  background-size: 100% !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 450px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#contact-info h3 {
+  color: black;
+  padding: 2% 2% 2% 6%;
+}
+#contact-info {
+  text-align: center;
+  padding-left: 5%;
+  margin-top: 5%;
+
+}
+#contact-info ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+#contact-info input {
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  color: #D5A77F;
+  font-weight: 800;
+  border: 5px solid #D5A77F;
+  background-color: white;
+  width: 50%;
+}
+.info {
+  text-align: left;
+}
+#contact-info p {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6%;
+}
+.info a {
+
+  margin-left: 5%;
+}
+.btn {
+  background-color: #D5A77F;
+  border-color: #D5A77F;
+}
+/*===========input button==============*/

@@ -1,0 +1,197 @@
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+::-moz-selection {
+    background: #61df37;
+    color: #fff;
+}
+
+::selection {
+    background: #61df37;
+    color: #fff;
+}
+html, body {
+     width: 100%;
+     overflow-x: hidden;
+  }
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1 {
+  text-transform: capitalize;
+}
+.heading {
+  font-size: 20px;
+}
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 28px;
+  font-size: 15px;
+}
+
+a {
+  outline: none !important;
+}
+
+.section-title strong {
+  color: #00C6D7;
+    font-size: 56px;
+}
+
+.section-title h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+.fa {
+    display: inline-block;
+    font: normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.custom-navbar .navbar-left li a  {
+  color: #878b72;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.custom-navbar {
+    background: #4B4B4B;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+.custom-navbar .navbar-brand  {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 30px;
+}
+.custom-navbar .navbar-right li a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    }
+.custom-navbar .navbar-lang {
+  padding-left: 30px;
+}
+.custom-navbar .navbar-lang li a{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #e7b99f;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #e7b99f;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: #878b72;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #00c6d7;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #4B4B4B;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #4B4B4B;
+        }
+}
+
+/* ==========================================================================
+Facebook Widget section
+<!--Brought to you by www.TheBlogWidgets.com-->
+========================================================================== */
+.theblogwidgets{
+    background: url("http://3.bp.blogspot.com/-TaZRLv66f8g/UoMnTyTbF6I/AAAAAAAAAGY/U4qcf-SP6d0/TheBlogWidgets_facebook_widget.png") no-repeat scroll left center transparent !important;
+    float: right;
+    height: 470px;
+    padding: 0 5px 0 46px;
+    width: 295px;
+    z-index: 999;
+    position:fixed;
+    right:-250px;
+    top:20%;
+  }
+  .theblogwidgets div{
+    padding: 0;
+    margin-right:-8px;
+    border:4px solid  #3b5998;
+    background:#fafafa;
+  }
+ /* ==========================================================================
+footer section
+========================================================================== */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #444;
+  color: #6a6a6a; 
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+footer .copyright {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f60;
+}
+footer .copyright li:first-child:before {
+  display: none;
+}
