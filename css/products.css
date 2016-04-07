@@ -7,7 +7,7 @@
 }
 
 .carousel-caption h3 {
-      color: #000 !important;
+      color: #ff4000 !important;
   }
   @media (max-width: 600px) {
     .carousel-caption {
@@ -27,9 +27,12 @@
 .modal-header, .modal-body {
     padding: 40px 50px;
 }
+
 .menus-name {
   color:green;
+  font-size:20px;
 }
+
 .fa{
   font-size: 17px;
   color: #666;
@@ -64,3 +67,10 @@
       color: #000;  
   }
 
+ .menus-category-name {
+  font-size:20px;
+  font-weight: 500;
+ }
+ #demo{
+  height: 100vh;
+ }
