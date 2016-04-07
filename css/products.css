@@ -71,6 +71,24 @@
   font-size:20px;
   font-weight: 500;
  }
+ /* JQuery implementation */
  #demo{
   height: 100vh;
  }
+ .demo-inner-content {
+      position: relative; /* if position is not set, the script will set it to 'relative'. */
+      margin: 0px auto;
+      max-width: 600px;
+      color: #ff4000;
+      text-align: center;
+    }
+.demo-inner-content h4{
+      font-size: 2.2em;
+      margin: 0;
+      padding-top:99%;
+    }
+.demo-inner-content p{
+      font-size: 1.3em;
+      margin: 0;
+    }
+
