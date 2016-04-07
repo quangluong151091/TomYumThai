@@ -4,7 +4,7 @@
 
 /* ================header section================= */
 #header {
-  background: linear-gradient(rgba(255,222,222,0.3),rgba(255,222,222,0.3)), url(../images/10.jpg) no-repeat center top;
+  background: no-repeat center top;
   background-size: cover !important;
   overflow: hidden;
   background-position: center;
@@ -118,16 +118,16 @@
   border: 5px solid #EDEDED;
   }
   #one {
-  background: url(../images/seafood1.jpg) no-repeat center top;
+  background: url(../images/Slide_3.jpg) no-repeat center top;
   }
   #two {
-  background: url(../images/seafood2.jpg) no-repeat center top;
+  background: url(../images/smaill_menu_2.jpg) no-repeat center top;
   }
    #three {
-  background: url(../images/beef2.jpg) no-repeat center top;
+  background: url(../images/smaill_menu_3.jpg) no-repeat center top;
   }
   #four {
-  background: url(../images/chicken3.jpg) no-repeat center top;
+  background: url(../images/smaill_menu_4.jpg) no-repeat center top;
   }
 #our-products .right-side {
   text-align: center;
@@ -231,3 +231,10 @@
   border-color: #D5A77F;
 }
 /*===========input button==============*/
+    #demo-1 {
+      position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+      overflow: hidden; /* to bound the empty top space created by inner element's top margin */
+      width: 100%;
+      min-height: 100vh;
+      background-color: #999;
+    }
