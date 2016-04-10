@@ -238,3 +238,12 @@
       min-height: 100vh;
       background-color: #999;
     }
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
