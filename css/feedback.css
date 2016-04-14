@@ -1,0 +1,38 @@
+body {
+	background: url(../images/Slide_2.jpg) no-repeat top center;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	background-position: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	color: #fff;
+}
+h1 {
+	font-family: 'Crimson Text', serif;
+	font-size: 50px;
+}
+p {
+	font-size: 13px;
+}
+#main {
+	margin: auto;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-spinner {
+	font-size: 50px;
+}
