@@ -85,6 +85,10 @@
   min-height: 400px;
 }
 
+#about-us {
+
+  padding: 5% 2% 5% 2%;
+}
 /* ========================our-menus section================================== */
 #our-products {
   background-size: 100% !important;
@@ -100,7 +104,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 2%;
+  padding: 5% 2% 5% 2%;
   
   }
   .pro-img {
@@ -134,9 +138,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 #our-products .right-side h2 {
+  padding-top:10%;
   color: black;
 }
 #our-products .right-side p {
@@ -177,8 +182,8 @@
   width: 50%;
 }
 /* ========================contact-us section================================== */
-#Oth-map {
-  background: url(../images/TYT-map.jpg) no-repeat top center;
+#TYT-map {
+  background: no-repeat top center;
   background-size: 100% !important;
   overflow: hidden;
   background-position: center;
@@ -189,6 +194,7 @@
   min-height: 450px;
   margin-top: 3%;
   margin-bottom: 3%;
+  padding-top: 4%;
 }
 #contact-info h3 {
   color: black;
