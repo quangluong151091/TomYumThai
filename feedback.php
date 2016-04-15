@@ -42,7 +42,7 @@
 				<h1>Thanks for your message.</h1>
 				<i class="fa fa-spinner fa-pulse"></i>
 				<p></p>
-				<p><em>You will be back to my contact page in a moment</em></p>
+				<p><em>You will be back to our page in a moment</em></p>
 			</div>
 		</div>
 	</div>
