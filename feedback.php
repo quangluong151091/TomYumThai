@@ -27,7 +27,7 @@
 	<title>Email Sent...</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="refresh" content="2;url=http://www.cc.puv.fi/~e1500949/TYT/contact.html" />
+	<meta http-equiv="refresh" content="2;url=contact.html" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/feedback.css">
