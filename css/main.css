@@ -1,6 +1,6 @@
 body {
     background: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     font-weight: 400;
     position: relative;
   }
@@ -84,7 +84,6 @@ navigation section
   margin-top: -20px;
 }
 .custom-navbar {
-    
     margin-bottom: 0;
     margin: 0 auto;
     padding: 20px;
@@ -96,7 +95,6 @@ navigation section
 .custom-navbar .navbar-right li a {
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
     }
 .custom-navbar .nav li a:hover {
     background: transparent;
@@ -121,15 +119,16 @@ navigation section
 @media(min-width:768px){
     .custom-navbar {
             border-bottom: 0;
-            -webkit-transition: background .2s ease-in-out,padding .5s ease-in-out;
-            -moz-transition: background .2s ease-in-out,padding .5s ease-in-out;
-            transition: background .2s ease-in-out,padding .5s ease-in-out;
+            -webkit-transition: background .2s ease-in-out,padding .2s ease-in-out;
+            -moz-transition: background .2s ease-in-out,padding .2s ease-in-out;
+            transition: background .2s ease-in-out,padding .2s ease-in-out;
          }
     .custom-navbar.top-nav-collapse {
             padding: 8px;
             background: #000;
         }
 }
+
 /* ==========================================================================
 Facebook Widget section
 <!--Brought to you by www.TheBlogWidgets.com-->
