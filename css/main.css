@@ -142,7 +142,7 @@ Facebook Widget section
 <!--Brought to you by www.TheBlogWidgets.com-->
 ========================================================================== */
 .theblogwidgets{
-    background: url("icon.png") no-repeat scroll left center transparent !important;
+    background: url("../images/icon.png") no-repeat scroll left center transparent !important;
     float: right;
     height: 470px;
     padding: 0 5px 0 35px;
