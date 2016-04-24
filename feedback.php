@@ -1,25 +1,52 @@
-<?php
+
+<?php 
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+	if(empty($_POST["name"]) || empty($_POST["email"]) || empty($_POST["message"])) {
+		header('Location:contact.html');
+	} else {
+		$name = safe_input($_POST["name"]);	
+		$email = safe_input($_POST["email"]);
+		if (!preg_match("/^[a-zA-Z äö]*$/",$name) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			header('Location:contact.html');
+     	} else {
+			$message = safe_input($_POST["message"]);	
+			$subject = safe_input($_POST['subject']);
+		 	send_feedback($name, $subject, $email, $message);
+     	}
+	}
+		
+
+}
+
+function safe_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+
+function send_feedback($name, $subject, $email, $message) {
 		$to      = 'luongquang151091@gmail.com';
-		$name	 = $_POST['name'];
-		$email	 = $_POST['email'];
 		$ip		 = $_SERVER["REMOTE_ADDR"];
-		$subject = $_POST['subject'];
-		$message = "This is email from ";
-		$message .= $name;
-		$message .= " <";
-		$message .= $email;
-		$message .= ">:\n \n";
-		$message .= $_POST['message'];
-		$message .= "\n \n";
-		$message .= "\n";
-		$message .= date("F j, Y, g:i a");
+		$content = "This is email from ";
+		$content .= $name;
+		$content .= " <";
+		$content .= $email;
+		$content .= ">:\n \n";
+		$content .= $message;
+		$content .= "\n \n";
+		$content .= date("F j, Y, g:i a");
 
 
 		$headers = 'From: '.$email."\r\n";
 
 		mail($to, $subject, $message, $headers);
-	?>
 
+
+	$html = <<<EOT
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,10 +69,16 @@
 				<h1>Thanks for your message.</h1>
 				<i class="fa fa-spinner fa-pulse"></i>
 				<p></p>
-				<p><em>You will be back to our page in a moment</em></p>
+				<p><em>You will be directed back to our page in a moment</em></p>
 			</div>
 		</div>
 	</div>
 </section>
 </body>
 </html>
+EOT;
+	echo $html;
+	}
+?>
+
+
