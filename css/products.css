@@ -78,7 +78,7 @@
  }
  /* JQuery implementation */
  #demo{
-  height: 100vh;
+  height: 80vh;
  }
  .demo-inner-content {
       position: relative; /* if position is not set, the script will set it to 'relative'. */
