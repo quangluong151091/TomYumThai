@@ -103,17 +103,9 @@ navigation section
     color: #fff;
     font-size: 20px;
     }
-.custom-navbar .nav li a:hover {
-    background: transparent;
-   color: #FCF366;
-}
-.custom-navbar .nav > li > a:focus {
-  background-color: transparent;
-  color: #FCF366;
-  outline: none;
-}
+
 .custom-navbar .nav li.active > a {
-      color: #f60;1
+      color: #f60;
       background-color: transparent;
     }
 .custom-navbar .navbar-toggle {
