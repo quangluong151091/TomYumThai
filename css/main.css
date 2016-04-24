@@ -145,8 +145,8 @@ Facebook Widget section
     background: url("../images/icon.png") no-repeat scroll left center transparent !important;
     float: right;
     height: 470px;
-    padding: 0 5px 0 35px;
-    width: 286px;
+    padding: 0 5px 0 36px;
+    width: 285px;
     z-index: 999;
     position:fixed;
     right:-250px;
