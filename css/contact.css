@@ -18,12 +18,12 @@ header section
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 70vh;
+  height: 100vh;
   text-align: center;
 }
 
 #header h1 {
-  font-size:100px;
+  font-size: 60px;
   font-weight: bolder;
   opacity: 1;
   color: #fff;
@@ -132,18 +132,3 @@ main section - Contact
 #main .right-side input[type="submit"]:hover {
   color: #0066ff;
 }
-
-/* ==========================================================================
-Map section
-========================================================================== */
-/*#Oth-map {
-  background: url(../images/Othello-map-brando.jpg) no-repeat top center;
-  background-size: 100% !important;
-  overflow: hidden;
-  background-position: center;
-  color: #ffffff;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 400px;
-}*/
