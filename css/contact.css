@@ -8,6 +8,7 @@ header section
 #header {
   background: url(../images/13.jpg) no-repeat top center;
   background-size: cover !important;
+  background-attachment: fixed;
   overflow: hidden;
   background-position: center;
   color: #ffffff;
