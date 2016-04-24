@@ -83,14 +83,21 @@ navigation section
 .navbar .navbar-brand {
   margin-top: -20px;
 }
+.navbar img {
+  margin-left: 100px;
+}
 .custom-navbar {
     margin-bottom: 0;
     margin: 0 auto;
     padding: 20px;
+    background: #84301d;
 }
 .ease-navbar {
   padding: 5px;
   background: #680000;
+}
+.custom-navbar .navbar-right {
+  margin-right: 150px;
 }
 .custom-navbar .navbar-right li a {
     color: #fff;
@@ -106,7 +113,8 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-      color: #f60;
+      color: #f60;1
+      background-color: transparent;
     }
 .custom-navbar .navbar-toggle {
         border: none;
