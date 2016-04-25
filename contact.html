@@ -100,23 +100,23 @@
 				<h2>Send us feedback</h2>
 				<form action="feedback.php" method="POST" class="wow fadeIn" data-wow-delay="0.2s">
 					<div class="col-md-6 col-sm-6">
-						<strong>Name:</strong>
-						<input type="text" class="form-control" placeholder="Your Name Here" name="name">
+						<label for="name"><strong>Name:</strong></label>
+						<input id="name" type="text" class="form-control" placeholder="Your Name Here" name="name" required/>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<strong>Email:</strong>
-						<input type="email" class="form-control" placeholder="Your Email Here" name="email">
+						<label for="email"><strong>Email:</strong></label>
+						<input id="email" type="email" class="form-control" placeholder="Your Email Here" name="email" required/>
 					</div>
 					<div class="col-md-12 col-sm-12">
-						<strong>Subject:</strong>
-						<input type="text" class="form-control" placeholder="Email subject" name="subject">
+						<label for="subject"><strong>Subject:</strong></label>
+						<input id="subject" type="text" class="form-control" placeholder="Email subject" name="subject"/>
 					</div>
 					<div class="col-md-12 col-sm-12">
-						<strong>Message:</strong>
-						<textarea class="form-control" placeholder="Type your message here..." rows="7" name="message"></textarea>
+						<label for="message"><strong>Message:</strong></label>
+						<textarea id="message" class="form-control" placeholder="Type your message here..." rows="7" name="message" required></textarea>
 					</div>
 					<div class="col-md-offset-8 col-md-4 col-sm-offset-8 col-sm-4">
-						<input type="submit" class="send-button" value="SEND">
+						<input type="submit" class="send-button" value="SEND"/>
 					</div>
 				</form>
 			</div>
