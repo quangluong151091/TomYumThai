@@ -83,12 +83,12 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 370px;
+  min-height: 390px;
 }
 
 #about-us {
 
-  padding: 5% 2% 5% 2%;
+  padding: 4% 2% 5% 2%;
 }
 /* ========================our-menus section================================== */
 #our-products {
