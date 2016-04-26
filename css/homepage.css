@@ -260,7 +260,7 @@
 }
 #tri
 {
-  padding-left: 2%;
+
 }
 #tripadvisor-end
 {
@@ -270,4 +270,47 @@
 .btn-facebook:hover
 {
   background-color:#84301d;
+}
+/*==========facebook iframe========*/
+#fb-iframe
+{
+  style="border: white;
+  overflow: hidden;
+  height: 470px;
+  width: 245px;
+  background:#fafafa;
+  color:000;
+
+}
+
+.custom-button
+{
+  color: #D5A77F;
+  background-color:#ffffff;
+  border-color:#D5A77F;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 120%;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 4px solid;
+
+}
+.custom-button:hover
+{
+  color: #84301d;
+  background-color:#ffffff;
+  border-color:#84301d;
+  text-decoration: none;
 }
