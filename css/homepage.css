@@ -1,5 +1,5 @@
 #about-us, #our-products {
-  padding-top: 8c0px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 
@@ -142,7 +142,6 @@
   margin: 0 auto;
 }
 #our-products .right-side h2 {
-  padding-top:10%;
   color: black;
 }
 #our-products .right-side p {
