@@ -253,3 +253,21 @@
     color: #fff;
     background-color: transparent;
 }
+/*============fa=================*/
+#tripadvisor
+{
+  font-size: 140%;
+}
+#tri
+{
+  padding-left: 2%;
+}
+#tripadvisor-end
+{
+  color: #ffffff;
+  font-size: 140%;
+}
+.btn-facebook:hover
+{
+  background-color:#84301d;
+}
