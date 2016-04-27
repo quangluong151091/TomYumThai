@@ -89,16 +89,14 @@ navigation section
 .custom-navbar {
     margin-bottom: 0;
     margin: 0 auto;
-    padding: 20px;
-    background: #84301d;
+    padding: 15px;
+    background: #771e18;
 }
 .ease-navbar {
   padding: 5px;
   background: #680000;
 }
-.custom-navbar .navbar-right {
-  margin-right: 150px;
-}
+
 .custom-navbar .navbar-right li a {
     color: #fff;
     font-size: 20px;
@@ -129,6 +127,11 @@ navigation section
         }
 }
 
+.navbar-right .fa {
+  color: #fff;
+  font: normal 25px/1 FontAwesome;
+  margin-left: 3%;
+}
 /* ==========================================================================
 Facebook Widget section
 <!--Brought to you by www.TheBlogWidgets.com-->

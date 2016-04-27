@@ -1,4 +1,4 @@
-#about-us, #our-products {
+#about-us, #our-products, #contact-us {
   padding-top: 80px;
   padding-bottom: 100px;
 }
@@ -191,10 +191,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 450px;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  padding-top: 4%;
 }
 #contact-info h3 {
   color: black;
@@ -203,14 +199,12 @@
 #contact-info {
   text-align: center;
   padding-left: 5%;
-  margin-top: 5%;
-
 }
 #contact-info ul li {
   list-style-type: none;
   font-size: 18px;
 }
-#contact-info input {
+/*#contact-info input {
   font-size: 18px;
   margin: auto;
   width: 100%;
@@ -219,22 +213,34 @@
   border: 5px solid #D5A77F;
   background-color: white;
   width: 50%;
-}
+}*/
 .info {
   text-align: left;
 }
-#contact-info p {
-  font-size: 22px;
-  font-weight: bold;
-  padding: 6%;
+#TYT-address .fa {
+  color: #000;
+  font: normal 18px/1 FontAwesome;
+  text-align: center;
 }
-.info a {
-
+#TYT-address li:first-child .fa,
+#TYT-address li:last-child .fa {
+  margin-right: 10px;
+} 
+.info .fa {
+  color: #D5A77F;
+  font: normal 30px/1 FontAwesome;
+  margin-left: 4%;
+}
+.info ul#btn-social {
+   padding-top: 30px;
+}
+.info ul#btn-social li {
+  display: inline;
+}
+.info ul#btn-social li:first-child {
   margin-left: 5%;
-}
-.btn {
-  background-color: #D5A77F;
-  border-color: #D5A77F;
+  font-size: 18px;
+  font-weight: bold;
 }
 /*===========input button==============*/
     #demo-1 {
@@ -253,24 +259,7 @@
     color: #fff;
     background-color: transparent;
 }
-/*============fa=================*/
-#tripadvisor
-{
-  font-size: 140%;
-}
-#tri
-{
 
-}
-#tripadvisor-end
-{
-  color: #ffffff;
-  font-size: 140%;
-}
-.btn-facebook:hover
-{
-  background-color:#84301d;
-}
 /*==========facebook iframe========*/
 #fb-iframe
 {
@@ -289,7 +278,7 @@
   background-color:#ffffff;
   border-color:#D5A77F;
   display: inline-block;
-  padding: 6px 12px;
+  padding: 6px 30px;
   margin-bottom: 0;
   font-size: 120%;
   line-height: 1.42857143;
@@ -305,12 +294,12 @@
   user-select: none;
   background-image: none;
   border: 4px solid;
-
+  margin: auto;
 }
 .custom-button:hover
 {
   color: #84301d;
   background-color:#ffffff;
-  border-color:#84301d;
+  border-color:#f93;
   text-decoration: none;
 }
