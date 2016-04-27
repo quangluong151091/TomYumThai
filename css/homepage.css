@@ -227,9 +227,9 @@
   margin-right: 10px;
 } 
 .info .fa {
-  color: #D5A77F;
+  color: #84301d;
   font: normal 30px/1 FontAwesome;
-  margin-left: 4%;
+  margin-left: 2%;
 }
 .info ul#btn-social {
    padding-top: 30px;
@@ -274,7 +274,7 @@
 
 .custom-button
 {
-  color: #D5A77F;
+  color: #84301d;
   background-color:#ffffff;
   border-color:#D5A77F;
   display: inline-block;
@@ -298,8 +298,8 @@
 }
 .custom-button:hover
 {
-  color: #84301d;
+  color:#f93;
   background-color:#ffffff;
-  border-color:#f93;
+  border-color: #84301d;
   text-decoration: none;
 }
