@@ -71,7 +71,12 @@
       background-color: #fff;
       color: #000;  
   }
-
+.category {
+  font-size: 18px;
+}
+.col-xs-10 {
+  font-size: 16px;
+}
  .menus-category-name {
   font-size:20px;
   font-weight: 500;

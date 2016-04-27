@@ -64,16 +64,19 @@ main section - left side
 }
 #main .left-side h2 {
   text-transform: uppercase;
-  color: #ff9933;
+  color: #000;
   font-weight: bolder;
 }
-#main .left-side ul.TYT-address li{
+#main .left-side ul#TYT-address li{
   font-size: 18px;
 }
-#main .left-side ul.TYT-address li:first-child {
+#main .left-side ul#TYT-address li:first-child {
   margin-top: 20px;
 }
-
+#TYT-address li:first-child .fa,
+#TYT-address li:last-child .fa {
+  margin-right: 10px;
+} 
 .info {
   text-align: left;
 }
@@ -95,12 +98,12 @@ main section - Contact
 #main .right-side h2 {
   text-transform: uppercase;
   color: #000;
-  font-size: 20px;
   font-weight: bolder;
 }
 #main .right-side strong {
   text-transform: uppercase;
   position: relative;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 #main .right-side .form-control,
@@ -119,8 +122,8 @@ main section - Contact
   height: 30px;
 }
 #main .right-side input[type="submit"] {
-  background: #ff9933;
-  border: 3px solid #ff9933;
+  background: #680000;
+  border: 3px solid #680000;
   letter-spacing: 3px;
   font-size: 18px;
   font-weight: 600;
@@ -130,5 +133,5 @@ main section - Contact
   color: #ffffff;
 }
 #main .right-side input[type="submit"]:hover {
-  color: #0066ff;
+  color: #f93;
 }
