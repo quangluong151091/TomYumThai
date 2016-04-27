@@ -9,13 +9,16 @@
 	<meta name="description" content="">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-social.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/et-line-font.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400italic' rel='stylesheet' type='text/css'>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js' type='text/javascript'></script>
+	<link rel="stylesheet" type="text/css" href="css/zoomslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" type='text/javascript'></script>
 	<link href="css/imageviewer.css"  rel="stylesheet" type="text/css" />
 	<script src="js/imageviewer.js"></script>
 </head>
@@ -40,16 +43,15 @@
 			<span class= "icon-bar"></span>
 		</button>
 		<div class="collapse navbar-collapse navHeaderCollapse">
-
-			<ul class = "nav navbar-nav navbar-right">
-			        <li><a href="homepage.html">WELCOME</a></li>
-       	       			<li><a href="menus.html">MENUS</a></li>
-        			<li class="active_page"><a href="contact.html">CONTACT</a></li>
-        			<li><a href="https://www.facebook.com/TomYumThai-restaurant-185630484796613/" class="btn btn-social-icon btn-lg btn-facebook"><i class="fa fa-facebook"></i></a></li>
-                   		<li><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g189951-d4090378-Reviews-Tom_Yum_Thai_Restaurant-Vaasa_Ostrobothnia.html" class="btn btn-social-icon btn-lg btn-tripadvisor"><i class="fa fa-tripadvisor"></i></a></li>
-        	</ul>
+			<ul class = "nav navbar-right navbar-nav nav-btn-social">
+				<li><a href="homepage.html">WELCOME</a></li>
+				<li><a href="menus.html">MENUS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="https://www.facebook.com/TomYumThai-restaurant-185630484796613/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g189951-d4090378-Reviews-Tom_Yum_Thai_Restaurant-Vaasa_Ostrobothnia.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
 	</div>
-</div>
 </div>
 
 <!-- header section -->
@@ -79,18 +81,18 @@
 				<ul>
 					<li><h2>Tom Yum Thai Restaurant</h2></li>
 				</ul>
-				<ul class="TYT-address">
+				<ul id="TYT-address">
 					<li>
 						<i class="fa fa-map-marker" aria-hidden="true"></i>
-						Address: Kauppapuistikko 18, FIN-65100 Vaasa
+						Kauppapuistikko 18, FIN-65100 Vaasa
 					</li>
 					<li>
 						<i class="fa fa-envelope" aria-hidden="true"></i>
-						Email: info@tomyumthai.fi 
+						info@tomyumthai.fi 
 					</li>
 					<li>
 						<i class="fa fa-mobile" aria-hidden="true"></i>
-						Tel: (06) 319 8800
+						(06) 319 8800
 					</li>
 				</ul>
 				<div id="image-gallery-1" class="cf">
@@ -100,7 +102,7 @@
 
 			<!-- right side -->
 			<div class="col-md-6 col-sm-6 right-side">
-				<h2>Send us feedback</h2>
+				<h2 class="text-center">Send us feedback</h2>
 				<form action="feedback.php" method="POST" class="wow fadeIn" data-wow-delay="0.2s">
 					<div class="col-md-6 col-sm-6">
 						<label for="name"><strong>Name:</strong></label>
