@@ -81,7 +81,7 @@ navigation section
   vertical-align: top;
 }
 .navbar .navbar-brand {
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 .custom-navbar {
@@ -90,8 +90,11 @@ navigation section
     padding: 15px;
     background: #771e18;
 }
+.ease-img {
+  width: 90%;
+}
 .ease-navbar {
-  padding: 5px;
+  padding: 10px;
   background: #680000;
 }
 
