@@ -2,8 +2,10 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("ease-navbar");
+            $("img").addClass("ease-img");
         } else {
             $(".navbar-fixed-top").removeClass("ease-navbar");
+            $("img").removeClass("ease-img");
         }
 });
 
